@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA5359: No deshabilitar la validación de certificado
+dotnet_diagnostic.CA5359.severity = silent

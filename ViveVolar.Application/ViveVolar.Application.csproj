@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViveVolar.Abstractions\ViveVolar.Abstractions.csproj" />
+    <ProjectReference Include="..\ViveVolar.Domain\ViveVolar.Domain.csproj" />
+    <ProjectReference Include="..\ViveVolar.Entities\ViveVolar.Entities.csproj" />
+    <ProjectReference Include="..\ViveVolar.Repository\ViveVolar.Repository.csproj" />
+    <ProjectReference Include="..\ViveVolar.Services\ViveVolar.Services.csproj" />
+  </ItemGroup>
+
+</Project>
